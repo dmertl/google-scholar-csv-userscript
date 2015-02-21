@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Scholar CSV Download
 // @namespace    http://dmertl.com/userscripts/google-scholar
-// @version      0.6
+// @version      0.7
 // @description  Allows downloading Google Scholar results in CSV format
 // @author       David Mertl <dmertl@gmail.com>
 // @match        https://scholar.google.com/scholar*
