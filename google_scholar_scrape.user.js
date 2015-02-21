@@ -113,6 +113,9 @@ function insertUi() {
         gs_lbl.className = 'gs_lbl';
         gs_lbl.textContent = 'Download CSV';
         var gs_ico = document.createElement('span');
+        gs_ico.className = 'gs_ico';
+        gs_ico.style.background = 'url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-download.svg) 0 -3px no-repeat';
+        gs_ico.style.backgroundSize = '20px 20px';
         link.appendChild(gs_lbl);
         link.appendChild(gs_ico);
         cont.appendChild(link);
